@@ -1,0 +1,18 @@
+{
+  "molecule": "LiH",
+  "bond_length_angstrom": 1.6,
+  "basis_set": "sto3g",
+  "active_space": {
+    "num_electrons": 2,
+    "num_spatial_orbitals": 2
+  },
+  "algorithm": "VQE",
+  "ansatz": "UCCSD",
+  "mapper": "JordanWignerMapper",
+  "optimizer": "SLSQP",
+  "backend": "StatevectorEstimator",
+  "vqe_energy_hartree": "REPLACE_WITH_YOUR_LIH_VQE_ENERGY",
+  "reference_energy_hartree": "REPLACE_WITH_YOUR_LIH_REFERENCE_ENERGY",
+  "absolute_error_hartree": "REPLACE_WITH_YOUR_LIH_ERROR",
+  "chemical_accuracy_achieved": "REPLACE_WITH_TRUE_OR_FALSE"
+}

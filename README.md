@@ -93,10 +93,12 @@ Chemical accuracy is defined as an energy error below approximately **1.6 milli-
 
 ## Results
 
-| Molecule | VQE Energy | Reference Energy | Absolute Error | Chemical Accuracy |
+| Molecule | VQE Energy (Ha) | Reference Energy (Ha) | Absolute Error (Ha) | Chemical Accuracy |
 |---|---:|---:|---:|---|
-| H₂ | To be added | To be added | To be added | To be added |
-| LiH | To be added | To be added | To be added | To be added |
+| H₂ | YOUR_H2_VALUE | YOUR_H2_REFERENCE | YOUR_H2_ERROR | ✅ Yes/No |
+| LiH | YOUR_LIH_VALUE | YOUR_LIH_REFERENCE | YOUR_LIH_ERROR | ✅ Yes/No |
+
+> LiH uses a reduced active-space model with 2 active electrons and 2 spatial orbitals. Its reference energy is computed using exact classical diagonalization of the same reduced model, ensuring a fair VQE comparison.
 
 Result charts and comparison tables will be added in the `results/` folder.
 

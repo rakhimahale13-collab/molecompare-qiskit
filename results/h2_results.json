@@ -1,0 +1,14 @@
+{
+  "molecule": "H2",
+  "bond_length_angstrom": 0.741,
+  "basis_set": "sto3g",
+  "algorithm": "VQE",
+  "ansatz": "UCCSD",
+  "mapper": "JordanWignerMapper",
+  "optimizer": "SLSQP",
+  "backend": "StatevectorEstimator",
+  "vqe_energy_hartree": "REPLACE_WITH_YOUR_VQE_ENERGY",
+  "reference_energy_hartree": -1.13727,
+  "absolute_error_hartree": "REPLACE_WITH_YOUR_ERROR",
+  "chemical_accuracy_achieved": "REPLACE_WITH_TRUE_OR_FALSE"
+}

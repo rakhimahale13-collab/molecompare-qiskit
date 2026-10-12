@@ -1,0 +1,10 @@
+qiskit>=1.4
+qiskit-algorithms==0.4.0
+qiskit-nature==0.8.0
+qiskit-nature-pyscf==0.4.0
+pyscf
+numpy
+matplotlib
+jupyter
+ipykernel
+streamlit
